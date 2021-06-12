@@ -14,7 +14,7 @@ struct ScoreView: View {
     
     var body: some View {
         ZStack {
-            Color.yellow
+            Color.blue
             VStack {
                 Text("Your score was:")
                 Text("\(score)/\(totalScore)")
